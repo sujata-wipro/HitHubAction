@@ -6,5 +6,5 @@ jobs:
      steps: 
          - uses: actions/checkout@v3
          - name: run a sample gitgub
-           run: acho "hi"
+           run: echo "hi"
 
