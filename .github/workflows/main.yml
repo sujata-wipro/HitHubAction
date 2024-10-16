@@ -1,10 +1,10 @@
 name: firtsworkflow
 on: push
 jobs:
-     build: 
-     run-ons: ubuntu-latest
-     steps: 
-          - uses: actions/checkout@v3
-          - name: run a sample gitgub
-            run: acho "hi"
+build: 
+run-ons: ubuntu-latest
+steps: 
+- uses: actions/checkout@v3
+- name: run a sample gitgub
+  run: acho "hi"
 
