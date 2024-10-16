@@ -2,7 +2,7 @@ name: firtsworkflow
 on: push
 jobs:
      build: 
-     runs-on: ubuntu-latest
+     run-ons: ubuntu-latest
      steps: 
           - uses: actions/checkout@v3
           - name: run a sample gitgub
