@@ -10,7 +10,7 @@ jobs:
 
 
 steps: 
-     - uses: actions/checkout@v3
-     - name: run a sample gitgub
-       run: echo "hi"
+ - uses: actions/checkout@v3
+ - name: run a sample gitgub
+ run: echo "hi"
 
