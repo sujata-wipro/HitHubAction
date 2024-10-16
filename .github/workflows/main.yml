@@ -4,7 +4,7 @@ jobs:
 build: 
 run-ons: ubuntu-latest
 
-steps: 
+steps:
 - uses: actions/checkout@v3
 - name: Run a sample github action
   run: echo "run the project successfully"
